@@ -1,0 +1,16 @@
+{"event_id": "E1", "user_id": 101, "event_type": "view", "product_id": "P1", "timestamp": "2026-09-01T09:00:00+09:00"}
+{broken json}
+{"event_id": "E3", "user_id": 101, "event_type": "purchase", "product_id": "P1", "timestamp": "2026-09-01T00:20:00Z"}
+   
+{"event_id": "E2", "user_id": 101, "event_type": "cart", "product_id": "P1", "timestamp": "2026-09-01T00:10:00Z"}
+{"event_id": "E2", "user_id": 101, "event_type": "cart", "product_id": "P1", "timestamp": "2026-09-01T00:10:00Z"}
+[1,2]
+{"event_id": "E4", "user_id": 101, "event_type": "view", "product_id": "P2", "timestamp": "2026-09-01T00:50:00Z"}
+{"event_id": "E5", "user_id": 101, "event_type": "cart", "product_id": "P2", "timestamp": "2026-09-01T01:21:00Z"}
+{"event_id": "E6", "user_id": 205, "event_type": "view", "product_id": "P1", "timestamp": "2026-09-01T00:01:00Z"}
+{"event_id": "E7", "user_id": 205, "event_type": "purchase", "product_id": "P1", "timestamp": "2026-09-01T00:05:00Z"}
+{"event_id": "E8", "user_id": 205, "event_type": "cart", "product_id": "P1", "timestamp": "2026-09-01T00:06:00Z"}
+{"event_id": "E9", "user_id": 309, "event_type": "view", "product_id": "P3", "timestamp": "2026-09-01T00:01:00Z"}
+{"event_id": "E10", "user_id": 309, "event_type": "cart", "product_id": "P3", "timestamp": "2026-09-01T00:02:00Z"}
+{"event_id": "E11", "user_id": 309, "event_type": "purchase", "product_id": "P3", "timestamp": "2026-09-01T00:02:00Z"}
+{"event_id": "BAD", "user_id": 999, "event_type": "view", "product_id": "P1", "timestamp": "not-a-date"}

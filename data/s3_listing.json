@@ -1,0 +1,27 @@
+[
+  {
+    "Key": "raw/day=2026-09-01/a.jsonl",
+    "Size": 46,
+    "ETag": "\"v2-a\""
+  },
+  {
+    "Key": "raw/day=2026-09-02/b.jsonl.gz",
+    "Size": 58,
+    "ETag": "\"v1-b\""
+  },
+  {
+    "Key": "raw/day=2026-09-02/",
+    "Size": 0,
+    "ETag": "\"directory\""
+  },
+  {
+    "Key": "raw/readme.txt",
+    "Size": 20,
+    "ETag": "\"note\""
+  },
+  {
+    "Key": "raw/day=2026-09-03/c.jsonl",
+    "Size": 23,
+    "ETag": "\"v1-c\""
+  }
+]

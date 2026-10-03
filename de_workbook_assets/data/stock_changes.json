@@ -1,0 +1,50 @@
+[
+  {
+    "change_id": 1,
+    "sku": "A",
+    "warehouse": "SEO",
+    "qty": 12,
+    "version": 2,
+    "is_deleted": 0
+  },
+  {
+    "change_id": 2,
+    "sku": "B",
+    "warehouse": "SEO",
+    "qty": 0,
+    "version": 2,
+    "is_deleted": 1
+  },
+  {
+    "change_id": 3,
+    "sku": "C",
+    "warehouse": "SEO",
+    "qty": 4,
+    "version": 1,
+    "is_deleted": 0
+  },
+  {
+    "change_id": 4,
+    "sku": "A",
+    "warehouse": "SEO",
+    "qty": 999,
+    "version": 1,
+    "is_deleted": 0
+  },
+  {
+    "change_id": 5,
+    "sku": "A",
+    "warehouse": "SEO",
+    "qty": 13,
+    "version": 3,
+    "is_deleted": 0
+  },
+  {
+    "change_id": 6,
+    "sku": "B",
+    "warehouse": "SEO",
+    "qty": 999,
+    "version": 1,
+    "is_deleted": 0
+  }
+]

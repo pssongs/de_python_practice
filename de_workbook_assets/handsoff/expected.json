@@ -1,0 +1,2068 @@
+{
+  "1": [
+    {
+      "shipment_id": "0001",
+      "carrier": " Han Express ",
+      "destination": "Seoul, KR",
+      "packages": "2",
+      "unit_fee": "12.50",
+      "updated_at": "2026-09-01T01:00:00+00:00",
+      "status": " delivered "
+    },
+    {
+      "shipment_id": "0002",
+      "carrier": "Blue Post",
+      "destination": "Busan",
+      "packages": "1",
+      "unit_fee": "8.00",
+      "updated_at": "2026-09-01T02:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0001",
+      "carrier": "Han Express",
+      "destination": "Seoul, KR",
+      "packages": "3",
+      "unit_fee": "12.50",
+      "updated_at": "2026-09-01T03:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0003",
+      "carrier": "Blue Post",
+      "destination": "Incheon",
+      "packages": "2",
+      "unit_fee": "5.25",
+      "updated_at": "2026-09-01T04:00:00+00:00",
+      "status": "cancelled"
+    },
+    {
+      "shipment_id": "0004",
+      "carrier": "Han Express",
+      "destination": "Daejeon",
+      "packages": "2",
+      "unit_fee": "3.10",
+      "updated_at": "2026-09-01T05:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0005",
+      "carrier": "Blue Post",
+      "destination": "Daegu",
+      "packages": "0",
+      "unit_fee": "6.00",
+      "updated_at": "2026-09-01T06:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0006",
+      "carrier": "Han Express",
+      "destination": "Seoul",
+      "packages": "two",
+      "unit_fee": "4.00",
+      "updated_at": "2026-09-01T07:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0007",
+      "carrier": "Han Express",
+      "destination": "Seoul",
+      "packages": "1",
+      "unit_fee": "NaN",
+      "updated_at": "2026-09-01T08:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0008",
+      "carrier": "Blue Post",
+      "destination": "Busan",
+      "packages": "1",
+      "unit_fee": "4.00",
+      "updated_at": "not-a-date",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0009",
+      "carrier": "Blue Post",
+      "destination": "Gwangju",
+      "packages": "1",
+      "unit_fee": "0.00",
+      "updated_at": "2026-09-01T09:00:00+00:00",
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0010",
+      "carrier": "Blue Post",
+      "destination": "Jeju",
+      "packages": "2",
+      "unit_fee": "7.50",
+      "updated_at": "2026-09-01T10:00:00+00:00",
+      "status": "delivered"
+    }
+  ],
+  "2": {
+    "valid": [
+      {
+        "shipment_id": "0001",
+        "carrier": "Han Express",
+        "destination": "Seoul, KR",
+        "packages": 2,
+        "unit_fee": {
+          "__decimal__": "12.50"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T01:00:00+00:00"
+        },
+        "status": "delivered"
+      },
+      {
+        "shipment_id": "0002",
+        "carrier": "Blue Post",
+        "destination": "Busan",
+        "packages": 1,
+        "unit_fee": {
+          "__decimal__": "8.00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T02:00:00+00:00"
+        },
+        "status": "delivered"
+      },
+      {
+        "shipment_id": "0001",
+        "carrier": "Han Express",
+        "destination": "Seoul, KR",
+        "packages": 3,
+        "unit_fee": {
+          "__decimal__": "12.50"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T03:00:00+00:00"
+        },
+        "status": "delivered"
+      },
+      {
+        "shipment_id": "0003",
+        "carrier": "Blue Post",
+        "destination": "Incheon",
+        "packages": 2,
+        "unit_fee": {
+          "__decimal__": "5.25"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T04:00:00+00:00"
+        },
+        "status": "cancelled"
+      },
+      {
+        "shipment_id": "0004",
+        "carrier": "Han Express",
+        "destination": "Daejeon",
+        "packages": 2,
+        "unit_fee": {
+          "__decimal__": "3.10"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T05:00:00+00:00"
+        },
+        "status": "delivered"
+      },
+      {
+        "shipment_id": "0009",
+        "carrier": "Blue Post",
+        "destination": "Gwangju",
+        "packages": 1,
+        "unit_fee": {
+          "__decimal__": "0.00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T09:00:00+00:00"
+        },
+        "status": "delivered"
+      },
+      {
+        "shipment_id": "0010",
+        "carrier": "Blue Post",
+        "destination": "Jeju",
+        "packages": 2,
+        "unit_fee": {
+          "__decimal__": "7.50"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T10:00:00+00:00"
+        },
+        "status": "delivered"
+      }
+    ],
+    "rejected": [
+      {
+        "row_number": 7,
+        "reasons": [
+          "packages"
+        ],
+        "record": {
+          "shipment_id": "0005",
+          "carrier": "Blue Post",
+          "destination": "Daegu",
+          "packages": "0",
+          "unit_fee": "6.00",
+          "updated_at": "2026-09-01T06:00:00+00:00",
+          "status": "delivered"
+        }
+      },
+      {
+        "row_number": 8,
+        "reasons": [
+          "packages"
+        ],
+        "record": {
+          "shipment_id": "0006",
+          "carrier": "Han Express",
+          "destination": "Seoul",
+          "packages": "two",
+          "unit_fee": "4.00",
+          "updated_at": "2026-09-01T07:00:00+00:00",
+          "status": "delivered"
+        }
+      },
+      {
+        "row_number": 9,
+        "reasons": [
+          "unit_fee"
+        ],
+        "record": {
+          "shipment_id": "0007",
+          "carrier": "Han Express",
+          "destination": "Seoul",
+          "packages": "1",
+          "unit_fee": "NaN",
+          "updated_at": "2026-09-01T08:00:00+00:00",
+          "status": "delivered"
+        }
+      },
+      {
+        "row_number": 10,
+        "reasons": [
+          "updated_at"
+        ],
+        "record": {
+          "shipment_id": "0008",
+          "carrier": "Blue Post",
+          "destination": "Busan",
+          "packages": "1",
+          "unit_fee": "4.00",
+          "updated_at": "not-a-date",
+          "status": "delivered"
+        }
+      }
+    ]
+  },
+  "3": [
+    {
+      "shipment_id": "0001",
+      "carrier": "Han Express",
+      "destination": "Seoul, KR",
+      "packages": 3,
+      "unit_fee": {
+        "__decimal__": "12.50"
+      },
+      "updated_at": {
+        "__datetime__": "2026-09-01T03:00:00+00:00"
+      },
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0002",
+      "carrier": "Blue Post",
+      "destination": "Busan",
+      "packages": 1,
+      "unit_fee": {
+        "__decimal__": "8.00"
+      },
+      "updated_at": {
+        "__datetime__": "2026-09-01T02:00:00+00:00"
+      },
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0003",
+      "carrier": "Blue Post",
+      "destination": "Incheon",
+      "packages": 2,
+      "unit_fee": {
+        "__decimal__": "5.25"
+      },
+      "updated_at": {
+        "__datetime__": "2026-09-01T04:00:00+00:00"
+      },
+      "status": "cancelled"
+    },
+    {
+      "shipment_id": "0004",
+      "carrier": "Han Express",
+      "destination": "Daejeon",
+      "packages": 2,
+      "unit_fee": {
+        "__decimal__": "3.10"
+      },
+      "updated_at": {
+        "__datetime__": "2026-09-01T05:00:00+00:00"
+      },
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0009",
+      "carrier": "Blue Post",
+      "destination": "Gwangju",
+      "packages": 1,
+      "unit_fee": {
+        "__decimal__": "0.00"
+      },
+      "updated_at": {
+        "__datetime__": "2026-09-01T09:00:00+00:00"
+      },
+      "status": "delivered"
+    },
+    {
+      "shipment_id": "0010",
+      "carrier": "Blue Post",
+      "destination": "Jeju",
+      "packages": 2,
+      "unit_fee": {
+        "__decimal__": "7.50"
+      },
+      "updated_at": {
+        "__datetime__": "2026-09-01T10:00:00+00:00"
+      },
+      "status": "delivered"
+    }
+  ],
+  "4": {
+    "Han Express": {
+      "__decimal__": "43.70"
+    },
+    "Blue Post": {
+      "__decimal__": "23.00"
+    }
+  },
+  "7": {
+    "__dataframe__": [
+      {
+        "order_id": "O01",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 2,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O02",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 1,
+        "unit_price_cents": 3000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-01T02:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O03",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 1,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-02T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O02",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 1,
+        "unit_price_cents": 3000,
+        "status": "cancelled",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T02:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O04",
+        "customer_id": "C03",
+        "product_id": "PX",
+        "quantity": 2,
+        "unit_price_cents": 500,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-02T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T03:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O05",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 2,
+        "unit_price_cents": 3000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-04T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O01",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 3,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T02:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O06",
+        "customer_id": "C03",
+        "product_id": "P3",
+        "quantity": 1,
+        "unit_price_cents": 2000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-04T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T03:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O07",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 1,
+        "unit_price_cents": 1000,
+        "status": "pending",
+        "order_date": {
+          "__datetime__": "2026-09-05T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-05T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O08",
+        "customer_id": "C02",
+        "product_id": "P1",
+        "quantity": 2,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-05T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-05T02:00:00+00:00"
+        }
+      }
+    ],
+    "columns": [
+      "order_id",
+      "customer_id",
+      "product_id",
+      "quantity",
+      "unit_price_cents",
+      "status",
+      "order_date",
+      "updated_at"
+    ]
+  },
+  "8": {
+    "__dataframe__": [
+      {
+        "order_id": "O01",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 3,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T02:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O02",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 1,
+        "unit_price_cents": 3000,
+        "status": "cancelled",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T02:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O03",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 1,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-02T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O04",
+        "customer_id": "C03",
+        "product_id": "PX",
+        "quantity": 2,
+        "unit_price_cents": 500,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-02T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T03:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O05",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 2,
+        "unit_price_cents": 3000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-04T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O06",
+        "customer_id": "C03",
+        "product_id": "P3",
+        "quantity": 1,
+        "unit_price_cents": 2000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-04T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T03:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O07",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 1,
+        "unit_price_cents": 1000,
+        "status": "pending",
+        "order_date": {
+          "__datetime__": "2026-09-05T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-05T01:00:00+00:00"
+        }
+      },
+      {
+        "order_id": "O08",
+        "customer_id": "C02",
+        "product_id": "P1",
+        "quantity": 2,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-05T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-05T02:00:00+00:00"
+        }
+      }
+    ],
+    "columns": [
+      "order_id",
+      "customer_id",
+      "product_id",
+      "quantity",
+      "unit_price_cents",
+      "status",
+      "order_date",
+      "updated_at"
+    ]
+  },
+  "9": {
+    "__dataframe__": [
+      {
+        "order_id": "O01",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 3,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T02:00:00+00:00"
+        },
+        "category": "Accessories"
+      },
+      {
+        "order_id": "O02",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 1,
+        "unit_price_cents": 3000,
+        "status": "cancelled",
+        "order_date": {
+          "__datetime__": "2026-09-01T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T02:00:00+00:00"
+        },
+        "category": "Electronics"
+      },
+      {
+        "order_id": "O03",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 1,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-02T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T01:00:00+00:00"
+        },
+        "category": "Accessories"
+      },
+      {
+        "order_id": "O04",
+        "customer_id": "C03",
+        "product_id": "PX",
+        "quantity": 2,
+        "unit_price_cents": 500,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-02T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-02T03:00:00+00:00"
+        },
+        "category": "Unknown"
+      },
+      {
+        "order_id": "O05",
+        "customer_id": "C02",
+        "product_id": "P2",
+        "quantity": 2,
+        "unit_price_cents": 3000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-04T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T01:00:00+00:00"
+        },
+        "category": "Electronics"
+      },
+      {
+        "order_id": "O06",
+        "customer_id": "C03",
+        "product_id": "P3",
+        "quantity": 1,
+        "unit_price_cents": 2000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-04T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-04T03:00:00+00:00"
+        },
+        "category": "Home"
+      },
+      {
+        "order_id": "O07",
+        "customer_id": "C01",
+        "product_id": "P1",
+        "quantity": 1,
+        "unit_price_cents": 1000,
+        "status": "pending",
+        "order_date": {
+          "__datetime__": "2026-09-05T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-05T01:00:00+00:00"
+        },
+        "category": "Accessories"
+      },
+      {
+        "order_id": "O08",
+        "customer_id": "C02",
+        "product_id": "P1",
+        "quantity": 2,
+        "unit_price_cents": 1000,
+        "status": "completed",
+        "order_date": {
+          "__datetime__": "2026-09-05T00:00:00"
+        },
+        "updated_at": {
+          "__datetime__": "2026-09-05T02:00:00+00:00"
+        },
+        "category": "Accessories"
+      }
+    ],
+    "columns": [
+      "order_id",
+      "customer_id",
+      "product_id",
+      "quantity",
+      "unit_price_cents",
+      "status",
+      "order_date",
+      "updated_at",
+      "category"
+    ]
+  },
+  "10": {
+    "__dataframe__": [
+      {
+        "category": "Accessories",
+        "orders": 3,
+        "units": 6,
+        "revenue_cents": 6000
+      },
+      {
+        "category": "Electronics",
+        "orders": 1,
+        "units": 2,
+        "revenue_cents": 6000
+      },
+      {
+        "category": "Home",
+        "orders": 1,
+        "units": 1,
+        "revenue_cents": 2000
+      },
+      {
+        "category": "Unknown",
+        "orders": 1,
+        "units": 2,
+        "revenue_cents": 1000
+      }
+    ],
+    "columns": [
+      "category",
+      "orders",
+      "units",
+      "revenue_cents"
+    ]
+  },
+  "11": {
+    "__dataframe__": [
+      {
+        "date": "2026-09-01",
+        "revenue_cents": 3000,
+        "rolling_3d_mean": 3000.0
+      },
+      {
+        "date": "2026-09-02",
+        "revenue_cents": 2000,
+        "rolling_3d_mean": 2500.0
+      },
+      {
+        "date": "2026-09-03",
+        "revenue_cents": 0,
+        "rolling_3d_mean": 1666.6666666666667
+      },
+      {
+        "date": "2026-09-04",
+        "revenue_cents": 8000,
+        "rolling_3d_mean": 3333.3333333333335
+      },
+      {
+        "date": "2026-09-05",
+        "revenue_cents": 2000,
+        "rolling_3d_mean": 3333.3333333333335
+      }
+    ],
+    "columns": [
+      "date",
+      "revenue_cents",
+      "rolling_3d_mean"
+    ]
+  },
+  "12": {
+    "__dataframe__": [
+      {
+        "date": "2026-09-02",
+        "revenue_cents": 2000,
+        "settled_cents": 1800,
+        "difference_cents": 200
+      },
+      {
+        "date": "2026-09-03",
+        "revenue_cents": 0,
+        "settled_cents": 100,
+        "difference_cents": -100
+      },
+      {
+        "date": "2026-09-05",
+        "revenue_cents": 2000,
+        "settled_cents": 0,
+        "difference_cents": 2000
+      }
+    ],
+    "columns": [
+      "date",
+      "revenue_cents",
+      "settled_cents",
+      "difference_cents"
+    ]
+  },
+  "13": [
+    {
+      "ticket_id": "T1",
+      "customer_id": "C01",
+      "country": "KR",
+      "priority": "high",
+      "updated_at": "2026-09-01T00:00:00Z",
+      "tags": [
+        "billing",
+        "vip"
+      ]
+    },
+    {
+      "ticket_id": "T2",
+      "customer_id": "C02",
+      "country": "Unknown",
+      "priority": "low",
+      "updated_at": "2026-09-01T00:02:00Z",
+      "tags": []
+    },
+    {
+      "ticket_id": "T1",
+      "customer_id": "C01",
+      "country": "KR",
+      "priority": "low",
+      "updated_at": "2026-09-01T00:05:00Z",
+      "tags": [
+        "billing"
+      ]
+    },
+    {
+      "ticket_id": "T3",
+      "customer_id": "C03",
+      "country": "US",
+      "priority": "high",
+      "updated_at": "2026-09-01T00:04:00Z",
+      "tags": [
+        "technical",
+        "technical"
+      ]
+    },
+    {
+      "ticket_id": "T4",
+      "customer_id": "C04",
+      "country": "KR",
+      "priority": "medium",
+      "updated_at": "2026-09-01T00:10:00Z",
+      "tags": [
+        "billing"
+      ]
+    },
+    {
+      "ticket_id": "T5",
+      "customer_id": "C05",
+      "country": "US",
+      "priority": "low",
+      "updated_at": "2026-09-01T00:03:00Z",
+      "tags": []
+    }
+  ],
+  "14": {
+    "billing": 2,
+    "technical": 1
+  },
+  "18": {
+    "records": [
+      {
+        "id": "T5",
+        "customer": {
+          "id": "C05",
+          "country": "US"
+        },
+        "tags": null,
+        "priority": "low",
+        "updated_at": "2026-09-01T00:03:00Z"
+      },
+      {
+        "id": "T3",
+        "customer": {
+          "id": "C03",
+          "country": "US"
+        },
+        "tags": [
+          "technical",
+          "technical"
+        ],
+        "priority": "high",
+        "updated_at": "2026-09-01T00:04:00Z"
+      },
+      {
+        "id": "T1",
+        "customer": {
+          "id": "C01",
+          "country": "KR"
+        },
+        "tags": [
+          "billing"
+        ],
+        "priority": "low",
+        "updated_at": "2026-09-01T00:05:00Z"
+      },
+      {
+        "id": "T4",
+        "customer": {
+          "id": "C04",
+          "country": "KR"
+        },
+        "tags": [
+          "billing"
+        ],
+        "priority": "medium",
+        "updated_at": "2026-09-01T00:10:00Z"
+      }
+    ],
+    "next_watermark": {
+      "__datetime__": "2026-09-01T00:10:00+00:00"
+    }
+  },
+  "19": [
+    {
+      "sale_id": "S01",
+      "district": "Seongdong",
+      "apartment": "River Apt",
+      "contract_date": "2026-08-01",
+      "price_manwon": "120,000",
+      "area_m2": "84.5",
+      "floor": "7",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T00:00:00Z"
+    },
+    {
+      "sale_id": "S02",
+      "district": "Gwangjin",
+      "apartment": "Forest Apt",
+      "contract_date": "2026-08-02",
+      "price_manwon": "90,000",
+      "area_m2": "59.0",
+      "floor": "-1",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T01:00:00Z"
+    },
+    {
+      "sale_id": "S01",
+      "district": "Seongdong",
+      "apartment": "River Apt",
+      "contract_date": "2026-08-01",
+      "price_manwon": "120,000",
+      "area_m2": "84.5",
+      "floor": "7",
+      "cancelled": "Y",
+      "updated_at": "2026-09-02T00:00:00Z"
+    },
+    {
+      "sale_id": "S03",
+      "district": "Seongdong",
+      "apartment": "Sky Apt",
+      "contract_date": "2026-08-03",
+      "price_manwon": "150,000",
+      "area_m2": "102.0",
+      "floor": "12",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T02:00:00Z"
+    },
+    {
+      "sale_id": "S04",
+      "district": "Gwangjin",
+      "apartment": "Hill Apt",
+      "contract_date": "2026-02-30",
+      "price_manwon": "70,000",
+      "area_m2": "59",
+      "floor": "4",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T03:00:00Z"
+    },
+    {
+      "sale_id": "S05",
+      "district": "Gwangjin",
+      "apartment": "Lake Apt",
+      "contract_date": "2026-08-05",
+      "price_manwon": "-1",
+      "area_m2": "0",
+      "floor": "3",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T04:00:00Z"
+    },
+    {
+      "sale_id": "S06",
+      "district": "Seongdong",
+      "apartment": "",
+      "contract_date": "2026-08-06",
+      "price_manwon": "80,000",
+      "area_m2": "70",
+      "floor": "5",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T05:00:00Z"
+    },
+    {
+      "sale_id": "S07",
+      "district": "Gwangjin",
+      "apartment": "Maple Apt",
+      "contract_date": "2026-08-07",
+      "price_manwon": "110,000",
+      "area_m2": "84",
+      "floor": "8",
+      "cancelled": "N",
+      "updated_at": "2026-09-01T06:00:00Z"
+    }
+  ],
+  "20": {
+    "sale_id": "S01",
+    "district": "Seongdong",
+    "apartment": "River Apt",
+    "contract_date": "2026-08-01",
+    "area_m2": {
+      "__decimal__": "84.5"
+    },
+    "floor": 7,
+    "cancelled": false,
+    "updated_at": "2026-09-01T00:00:00Z",
+    "price_krw": 1200000000
+  },
+  "21": {
+    "valid": [
+      {
+        "sale_id": "S01",
+        "district": "Seongdong",
+        "apartment": "River Apt",
+        "contract_date": {
+          "__date__": "2026-08-01"
+        },
+        "price_krw": 1200000000,
+        "area_m2": {
+          "__decimal__": "84.5"
+        },
+        "floor": 7,
+        "cancelled": false,
+        "updated_at": {
+          "__datetime__": "2026-09-01T00:00:00+00:00"
+        }
+      },
+      {
+        "sale_id": "S02",
+        "district": "Gwangjin",
+        "apartment": "Forest Apt",
+        "contract_date": {
+          "__date__": "2026-08-02"
+        },
+        "price_krw": 900000000,
+        "area_m2": {
+          "__decimal__": "59.0"
+        },
+        "floor": -1,
+        "cancelled": false,
+        "updated_at": {
+          "__datetime__": "2026-09-01T01:00:00+00:00"
+        }
+      },
+      {
+        "sale_id": "S01",
+        "district": "Seongdong",
+        "apartment": "River Apt",
+        "contract_date": {
+          "__date__": "2026-08-01"
+        },
+        "price_krw": 1200000000,
+        "area_m2": {
+          "__decimal__": "84.5"
+        },
+        "floor": 7,
+        "cancelled": true,
+        "updated_at": {
+          "__datetime__": "2026-09-02T00:00:00+00:00"
+        }
+      },
+      {
+        "sale_id": "S03",
+        "district": "Seongdong",
+        "apartment": "Sky Apt",
+        "contract_date": {
+          "__date__": "2026-08-03"
+        },
+        "price_krw": 1500000000,
+        "area_m2": {
+          "__decimal__": "102.0"
+        },
+        "floor": 12,
+        "cancelled": false,
+        "updated_at": {
+          "__datetime__": "2026-09-01T02:00:00+00:00"
+        }
+      },
+      {
+        "sale_id": "S07",
+        "district": "Gwangjin",
+        "apartment": "Maple Apt",
+        "contract_date": {
+          "__date__": "2026-08-07"
+        },
+        "price_krw": 1100000000,
+        "area_m2": {
+          "__decimal__": "84"
+        },
+        "floor": 8,
+        "cancelled": false,
+        "updated_at": {
+          "__datetime__": "2026-09-01T06:00:00+00:00"
+        }
+      }
+    ],
+    "rejected": [
+      {
+        "sale_id": "S04",
+        "fields": [
+          "contract_date"
+        ]
+      },
+      {
+        "sale_id": "S05",
+        "fields": [
+          "area_m2",
+          "price_krw"
+        ]
+      },
+      {
+        "sale_id": "S06",
+        "fields": [
+          "apartment"
+        ]
+      }
+    ]
+  },
+  "23": [
+    {
+      "sale_id": "S02",
+      "district": "Gwangjin",
+      "apartment": "Forest Apt",
+      "contract_date": {
+        "__date__": "2026-08-02"
+      },
+      "price_krw": 900000000,
+      "area_m2": {
+        "__decimal__": "59.0"
+      },
+      "floor": -1,
+      "cancelled": false,
+      "updated_at": {
+        "__datetime__": "2026-09-01T01:00:00+00:00"
+      }
+    },
+    {
+      "sale_id": "S03",
+      "district": "Seongdong",
+      "apartment": "Sky Apt",
+      "contract_date": {
+        "__date__": "2026-08-03"
+      },
+      "price_krw": 1500000000,
+      "area_m2": {
+        "__decimal__": "102.0"
+      },
+      "floor": 12,
+      "cancelled": false,
+      "updated_at": {
+        "__datetime__": "2026-09-01T02:00:00+00:00"
+      }
+    },
+    {
+      "sale_id": "S07",
+      "district": "Gwangjin",
+      "apartment": "Maple Apt",
+      "contract_date": {
+        "__date__": "2026-08-07"
+      },
+      "price_krw": 1100000000,
+      "area_m2": {
+        "__decimal__": "84"
+      },
+      "floor": 8,
+      "cancelled": false,
+      "updated_at": {
+        "__datetime__": "2026-09-01T06:00:00+00:00"
+      }
+    }
+  ],
+  "22": {
+    "Gwangjin": {
+      "sales": 2,
+      "total_price_krw": 2000000000
+    },
+    "Seongdong": {
+      "sales": 1,
+      "total_price_krw": 1500000000
+    }
+  },
+  "25": {
+    "records": [
+      {
+        "event_id": "E1",
+        "user_id": 101,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T09:00:00+09:00"
+      },
+      {
+        "event_id": "E3",
+        "user_id": 101,
+        "event_type": "purchase",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T00:20:00Z"
+      },
+      {
+        "event_id": "E2",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T00:10:00Z"
+      },
+      {
+        "event_id": "E2",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T00:10:00Z"
+      },
+      {
+        "event_id": "E4",
+        "user_id": 101,
+        "event_type": "view",
+        "product_id": "P2",
+        "timestamp": "2026-09-01T00:50:00Z"
+      },
+      {
+        "event_id": "E5",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P2",
+        "timestamp": "2026-09-01T01:21:00Z"
+      },
+      {
+        "event_id": "E6",
+        "user_id": 205,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T00:01:00Z"
+      },
+      {
+        "event_id": "E7",
+        "user_id": 205,
+        "event_type": "purchase",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T00:05:00Z"
+      },
+      {
+        "event_id": "E8",
+        "user_id": 205,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": "2026-09-01T00:06:00Z"
+      },
+      {
+        "event_id": "E9",
+        "user_id": 309,
+        "event_type": "view",
+        "product_id": "P3",
+        "timestamp": "2026-09-01T00:01:00Z"
+      },
+      {
+        "event_id": "E10",
+        "user_id": 309,
+        "event_type": "cart",
+        "product_id": "P3",
+        "timestamp": "2026-09-01T00:02:00Z"
+      },
+      {
+        "event_id": "E11",
+        "user_id": 309,
+        "event_type": "purchase",
+        "product_id": "P3",
+        "timestamp": "2026-09-01T00:02:00Z"
+      },
+      {
+        "event_id": "BAD",
+        "user_id": 999,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": "not-a-date"
+      }
+    ],
+    "rejected": [
+      {
+        "line": 2,
+        "reason": "json",
+        "raw": "{broken json}"
+      },
+      {
+        "line": 7,
+        "reason": "object",
+        "raw": "[1,2]"
+      }
+    ]
+  },
+  "26": {
+    "valid": [
+      {
+        "event_id": "E1",
+        "user_id": 101,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:00:00+00:00"
+        }
+      },
+      {
+        "event_id": "E3",
+        "user_id": 101,
+        "event_type": "purchase",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:20:00+00:00"
+        }
+      },
+      {
+        "event_id": "E2",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:10:00+00:00"
+        }
+      },
+      {
+        "event_id": "E2",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:10:00+00:00"
+        }
+      },
+      {
+        "event_id": "E4",
+        "user_id": 101,
+        "event_type": "view",
+        "product_id": "P2",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:50:00+00:00"
+        }
+      },
+      {
+        "event_id": "E5",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P2",
+        "timestamp": {
+          "__datetime__": "2026-09-01T01:21:00+00:00"
+        }
+      },
+      {
+        "event_id": "E6",
+        "user_id": 205,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:01:00+00:00"
+        }
+      },
+      {
+        "event_id": "E7",
+        "user_id": 205,
+        "event_type": "purchase",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:05:00+00:00"
+        }
+      },
+      {
+        "event_id": "E8",
+        "user_id": 205,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:06:00+00:00"
+        }
+      },
+      {
+        "event_id": "E9",
+        "user_id": 309,
+        "event_type": "view",
+        "product_id": "P3",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:01:00+00:00"
+        }
+      },
+      {
+        "event_id": "E10",
+        "user_id": 309,
+        "event_type": "cart",
+        "product_id": "P3",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:02:00+00:00"
+        }
+      },
+      {
+        "event_id": "E11",
+        "user_id": 309,
+        "event_type": "purchase",
+        "product_id": "P3",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:02:00+00:00"
+        }
+      }
+    ],
+    "rejected": [
+      {
+        "event_id": "BAD",
+        "user_id": 999,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": "not-a-date"
+      }
+    ]
+  },
+  "27": [
+    {
+      "event_id": "E1",
+      "user_id": 101,
+      "event_type": "view",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:00:00+00:00"
+      }
+    },
+    {
+      "event_id": "E3",
+      "user_id": 101,
+      "event_type": "purchase",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:20:00+00:00"
+      }
+    },
+    {
+      "event_id": "E2",
+      "user_id": 101,
+      "event_type": "cart",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:10:00+00:00"
+      }
+    },
+    {
+      "event_id": "E4",
+      "user_id": 101,
+      "event_type": "view",
+      "product_id": "P2",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:50:00+00:00"
+      }
+    },
+    {
+      "event_id": "E5",
+      "user_id": 101,
+      "event_type": "cart",
+      "product_id": "P2",
+      "timestamp": {
+        "__datetime__": "2026-09-01T01:21:00+00:00"
+      }
+    },
+    {
+      "event_id": "E6",
+      "user_id": 205,
+      "event_type": "view",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:01:00+00:00"
+      }
+    },
+    {
+      "event_id": "E7",
+      "user_id": 205,
+      "event_type": "purchase",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:05:00+00:00"
+      }
+    },
+    {
+      "event_id": "E8",
+      "user_id": 205,
+      "event_type": "cart",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:06:00+00:00"
+      }
+    },
+    {
+      "event_id": "E9",
+      "user_id": 309,
+      "event_type": "view",
+      "product_id": "P3",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:01:00+00:00"
+      }
+    },
+    {
+      "event_id": "E10",
+      "user_id": 309,
+      "event_type": "cart",
+      "product_id": "P3",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:02:00+00:00"
+      }
+    },
+    {
+      "event_id": "E11",
+      "user_id": 309,
+      "event_type": "purchase",
+      "product_id": "P3",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:02:00+00:00"
+      }
+    }
+  ],
+  "28": [
+    {
+      "event_id": "E1",
+      "user_id": 101,
+      "event_type": "view",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:00:00+00:00"
+      },
+      "session_id": "101-1"
+    },
+    {
+      "event_id": "E2",
+      "user_id": 101,
+      "event_type": "cart",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:10:00+00:00"
+      },
+      "session_id": "101-1"
+    },
+    {
+      "event_id": "E3",
+      "user_id": 101,
+      "event_type": "purchase",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:20:00+00:00"
+      },
+      "session_id": "101-1"
+    },
+    {
+      "event_id": "E4",
+      "user_id": 101,
+      "event_type": "view",
+      "product_id": "P2",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:50:00+00:00"
+      },
+      "session_id": "101-1"
+    },
+    {
+      "event_id": "E5",
+      "user_id": 101,
+      "event_type": "cart",
+      "product_id": "P2",
+      "timestamp": {
+        "__datetime__": "2026-09-01T01:21:00+00:00"
+      },
+      "session_id": "101-2"
+    },
+    {
+      "event_id": "E6",
+      "user_id": 205,
+      "event_type": "view",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:01:00+00:00"
+      },
+      "session_id": "205-1"
+    },
+    {
+      "event_id": "E7",
+      "user_id": 205,
+      "event_type": "purchase",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:05:00+00:00"
+      },
+      "session_id": "205-1"
+    },
+    {
+      "event_id": "E8",
+      "user_id": 205,
+      "event_type": "cart",
+      "product_id": "P1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:06:00+00:00"
+      },
+      "session_id": "205-1"
+    },
+    {
+      "event_id": "E9",
+      "user_id": 309,
+      "event_type": "view",
+      "product_id": "P3",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:01:00+00:00"
+      },
+      "session_id": "309-1"
+    },
+    {
+      "event_id": "E10",
+      "user_id": 309,
+      "event_type": "cart",
+      "product_id": "P3",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:02:00+00:00"
+      },
+      "session_id": "309-1"
+    },
+    {
+      "event_id": "E11",
+      "user_id": 309,
+      "event_type": "purchase",
+      "product_id": "P3",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:02:00+00:00"
+      },
+      "session_id": "309-1"
+    }
+  ],
+  "29": {
+    "__int_key_dict__": {
+      "101": true,
+      "205": false,
+      "309": false
+    }
+  },
+  "30": {
+    "records": [
+      {
+        "event_id": "E1",
+        "user_id": 101,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:00:00+00:00"
+        }
+      },
+      {
+        "event_id": "E3",
+        "user_id": 101,
+        "event_type": "purchase",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:20:00+00:00"
+        }
+      },
+      {
+        "event_id": "E2",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:10:00+00:00"
+        }
+      },
+      {
+        "event_id": "E4",
+        "user_id": 101,
+        "event_type": "view",
+        "product_id": "P2",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:50:00+00:00"
+        }
+      },
+      {
+        "event_id": "E5",
+        "user_id": 101,
+        "event_type": "cart",
+        "product_id": "P2",
+        "timestamp": {
+          "__datetime__": "2026-09-01T01:21:00+00:00"
+        }
+      },
+      {
+        "event_id": "E6",
+        "user_id": 205,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:01:00+00:00"
+        }
+      },
+      {
+        "event_id": "E7",
+        "user_id": 205,
+        "event_type": "purchase",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:05:00+00:00"
+        }
+      },
+      {
+        "event_id": "E8",
+        "user_id": 205,
+        "event_type": "cart",
+        "product_id": "P1",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:06:00+00:00"
+        }
+      },
+      {
+        "event_id": "E9",
+        "user_id": 309,
+        "event_type": "view",
+        "product_id": "P3",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:01:00+00:00"
+        }
+      },
+      {
+        "event_id": "E10",
+        "user_id": 309,
+        "event_type": "cart",
+        "product_id": "P3",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:02:00+00:00"
+        }
+      },
+      {
+        "event_id": "E11",
+        "user_id": 309,
+        "event_type": "purchase",
+        "product_id": "P3",
+        "timestamp": {
+          "__datetime__": "2026-09-01T00:02:00+00:00"
+        }
+      }
+    ],
+    "parse_rejected": [
+      {
+        "line": 2,
+        "reason": "json",
+        "raw": "{broken json}"
+      },
+      {
+        "line": 7,
+        "reason": "object",
+        "raw": "[1,2]"
+      }
+    ],
+    "timestamp_rejected": [
+      {
+        "event_id": "BAD",
+        "user_id": 999,
+        "event_type": "view",
+        "product_id": "P1",
+        "timestamp": "not-a-date"
+      }
+    ],
+    "counts": {
+      "input_records": 15,
+      "parse_rejected": 2,
+      "timestamp_rejected": 1,
+      "duplicates": 1,
+      "accepted": 11
+    }
+  },
+  "37": {
+    "rows": 10,
+    "row_groups": 4,
+    "schema": {
+      "device_id": "string",
+      "site": "string",
+      "timestamp": "timestamp[us, tz=UTC]",
+      "temperature_c": "double"
+    },
+    "missing_temperatures": 1
+  },
+  "38": [
+    {
+      "device_id": "D1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:00:00+00:00"
+      },
+      "temperature_c": 20.0
+    },
+    {
+      "device_id": "D1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:15:00+00:00"
+      },
+      "temperature_c": 22.0
+    },
+    {
+      "device_id": "D2",
+      "timestamp": {
+        "__datetime__": "2026-09-01T00:30:00+00:00"
+      },
+      "temperature_c": null
+    },
+    {
+      "device_id": "D2",
+      "timestamp": {
+        "__datetime__": "2026-09-01T01:00:00+00:00"
+      },
+      "temperature_c": 55.0
+    },
+    {
+      "device_id": "D1",
+      "timestamp": {
+        "__datetime__": "2026-09-01T01:10:00+00:00"
+      },
+      "temperature_c": 24.0
+    }
+  ],
+  "39": {
+    "valid": {
+      "__arrow__": [
+        {
+          "device_id": "D1",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-01T00:00:00+00:00"
+          },
+          "temperature_c": 20.0
+        },
+        {
+          "device_id": "D1",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-01T00:15:00+00:00"
+          },
+          "temperature_c": 22.0
+        },
+        {
+          "device_id": "D1",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-01T01:10:00+00:00"
+          },
+          "temperature_c": 24.0
+        },
+        {
+          "device_id": "D3",
+          "site": "BUS",
+          "timestamp": {
+            "__datetime__": "2026-09-01T00:00:00+00:00"
+          },
+          "temperature_c": 18.0
+        },
+        {
+          "device_id": "D3",
+          "site": "BUS",
+          "timestamp": {
+            "__datetime__": "2026-09-02T00:00:00+00:00"
+          },
+          "temperature_c": 19.0
+        },
+        {
+          "device_id": "D1",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-02T00:00:00+00:00"
+          },
+          "temperature_c": 21.0
+        },
+        {
+          "device_id": "D3",
+          "site": "BUS",
+          "timestamp": {
+            "__datetime__": "2026-09-02T01:00:00+00:00"
+          },
+          "temperature_c": 20.0
+        }
+      ],
+      "schema_kind": "sensor"
+    },
+    "rejected": {
+      "__arrow__": [
+        {
+          "device_id": "D2",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-01T00:30:00+00:00"
+          },
+          "temperature_c": null,
+          "reason": "missing"
+        },
+        {
+          "device_id": "D2",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-01T01:00:00+00:00"
+          },
+          "temperature_c": 55.0,
+          "reason": "out_of_range"
+        },
+        {
+          "device_id": "D2",
+          "site": "SEO",
+          "timestamp": {
+            "__datetime__": "2026-09-02T00:05:00+00:00"
+          },
+          "temperature_c": -25.0,
+          "reason": "out_of_range"
+        }
+      ],
+      "schema_kind": "rejected"
+    }
+  },
+  "40": {
+    "__dataframe__": [
+      {
+        "site": "BUS",
+        "hour": "2026-09-01T00:00:00Z",
+        "readings": 1,
+        "mean_c": 18.0
+      },
+      {
+        "site": "BUS",
+        "hour": "2026-09-02T00:00:00Z",
+        "readings": 1,
+        "mean_c": 19.0
+      },
+      {
+        "site": "BUS",
+        "hour": "2026-09-02T01:00:00Z",
+        "readings": 1,
+        "mean_c": 20.0
+      },
+      {
+        "site": "SEO",
+        "hour": "2026-09-01T00:00:00Z",
+        "readings": 2,
+        "mean_c": 21.0
+      },
+      {
+        "site": "SEO",
+        "hour": "2026-09-01T01:00:00Z",
+        "readings": 1,
+        "mean_c": 24.0
+      },
+      {
+        "site": "SEO",
+        "hour": "2026-09-02T00:00:00Z",
+        "readings": 1,
+        "mean_c": 21.0
+      }
+    ],
+    "columns": [
+      "site",
+      "hour",
+      "readings",
+      "mean_c"
+    ]
+  },
+  "42": {
+    "rows": 10,
+    "valid": 7,
+    "invalid": 3,
+    "temperature_sum": 144.0
+  },
+  "44": [
+    {
+      "key": "raw/day=2026-09-01/a.jsonl",
+      "etag": "\"v2-a\"",
+      "size": 46
+    },
+    {
+      "key": "raw/day=2026-09-02/b.jsonl.gz",
+      "etag": "\"v1-b\"",
+      "size": 58
+    },
+    {
+      "key": "raw/day=2026-09-03/c.jsonl",
+      "etag": "\"v1-c\"",
+      "size": 23
+    }
+  ],
+  "46": {
+    "sha256": "e287170c7d408762a52782815ee6b353b599edf07914614213ef1508b61503c4",
+    "size": 46
+  },
+  "47": {
+    "to_load": [
+      {
+        "key": "raw/day=2026-09-01/a.jsonl",
+        "etag": "\"v2-a\"",
+        "size": 46
+      },
+      {
+        "key": "raw/day=2026-09-03/c.jsonl",
+        "etag": "\"v1-c\"",
+        "size": 23
+      }
+    ],
+    "unchanged": [
+      "raw/day=2026-09-02/b.jsonl.gz"
+    ],
+    "missing": [
+      "raw/day=2026-08-31/old.jsonl"
+    ]
+  }
+}

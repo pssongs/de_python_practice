@@ -1,0 +1,5 @@
+{
+  "bucket": "practice-only",
+  "prefix": "raw/",
+  "region": "ap-northeast-2"
+}

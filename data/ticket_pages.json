@@ -1,0 +1,86 @@
+{
+  "START": {
+    "results": [
+      {
+        "id": "T1",
+        "customer": {
+          "id": "C01",
+          "country": "KR"
+        },
+        "tags": [
+          "billing",
+          "vip"
+        ],
+        "priority": "high",
+        "updated_at": "2026-09-01T00:00:00Z"
+      },
+      {
+        "id": "T2",
+        "customer": {
+          "id": "C02"
+        },
+        "tags": [],
+        "priority": "low",
+        "updated_at": "2026-09-01T00:02:00Z"
+      }
+    ],
+    "next_cursor": "page2"
+  },
+  "page2": {
+    "results": [
+      {
+        "id": "T1",
+        "customer": {
+          "id": "C01",
+          "country": "KR"
+        },
+        "tags": [
+          "billing"
+        ],
+        "priority": "low",
+        "updated_at": "2026-09-01T00:05:00Z"
+      },
+      {
+        "id": "T3",
+        "customer": {
+          "id": "C03",
+          "country": "US"
+        },
+        "tags": [
+          "technical",
+          "technical"
+        ],
+        "priority": "high",
+        "updated_at": "2026-09-01T00:04:00Z"
+      }
+    ],
+    "next_cursor": "page3"
+  },
+  "page3": {
+    "results": [
+      {
+        "id": "T4",
+        "customer": {
+          "id": "C04",
+          "country": "KR"
+        },
+        "tags": [
+          "billing"
+        ],
+        "priority": "medium",
+        "updated_at": "2026-09-01T00:10:00Z"
+      },
+      {
+        "id": "T5",
+        "customer": {
+          "id": "C05",
+          "country": "US"
+        },
+        "tags": null,
+        "priority": "low",
+        "updated_at": "2026-09-01T00:03:00Z"
+      }
+    ],
+    "next_cursor": null
+  }
+}

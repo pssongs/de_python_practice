@@ -1,0 +1,12 @@
+﻿shipment_id,carrier,destination,packages,unit_fee,updated_at,status
+0001, Han Express ,"Seoul, KR",2,12.50,2026-09-01T01:00:00+00:00, delivered 
+0002,Blue Post,Busan,1,8.00,2026-09-01T02:00:00+00:00,delivered
+0001,Han Express,"Seoul, KR",3,12.50,2026-09-01T03:00:00+00:00,delivered
+0003,Blue Post,Incheon,2,5.25,2026-09-01T04:00:00+00:00,cancelled
+0004,Han Express,Daejeon,2,3.10,2026-09-01T05:00:00+00:00,delivered
+0005,Blue Post,Daegu,0,6.00,2026-09-01T06:00:00+00:00,delivered
+0006,Han Express,Seoul,two,4.00,2026-09-01T07:00:00+00:00,delivered
+0007,Han Express,Seoul,1,NaN,2026-09-01T08:00:00+00:00,delivered
+0008,Blue Post,Busan,1,4.00,not-a-date,delivered
+0009,Blue Post,Gwangju,1,0.00,2026-09-01T09:00:00+00:00,delivered
+0010,Blue Post,Jeju,2,7.50,2026-09-01T10:00:00+00:00,delivered

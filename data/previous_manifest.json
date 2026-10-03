@@ -1,0 +1,14 @@
+{
+  "raw/day=2026-09-01/a.jsonl": {
+    "etag": "\"v1-a\"",
+    "size": 46
+  },
+  "raw/day=2026-09-02/b.jsonl.gz": {
+    "etag": "\"v1-b\"",
+    "size": 58
+  },
+  "raw/day=2026-08-31/old.jsonl": {
+    "etag": "\"old\"",
+    "size": 40
+  }
+}
